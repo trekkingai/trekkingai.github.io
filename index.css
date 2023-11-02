@@ -1,0 +1,30 @@
+    body {
+        margin: 0;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #landingVideo {
+        position: fixed;
+        min-width: 100vw;
+        min-height: 100vh;
+        z-index: -10; /* Makes video a background layer */
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .content {
+        width: 50vw;  /* Content spans half the screen */
+        min-width: 210px; /* But will never go below 210px (mobile-friendly) */
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: rgb(240, 240, 240);
+    }
