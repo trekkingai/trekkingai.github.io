@@ -1,24 +1,12 @@
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="index5.css">
     <title>Trekking.ai</title>
   </head>
-  <body>
+  <body style="background-color:black;">
     <video id="landingVideo" autoplay muted loop  playsinline>
-        <source src="assets/landing.mp4" type="video/mp4">
+      <source src="assets/landing.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      Trekking AI is in Stealth Mode. Check Back Soon. 
     </video>
-    <div class="flex-container"/>
   </body>
-  <script>
-    window.addEventListener('load', function(){
-    var newVideo = document.getElementById('landingVideo');
-    newVideo.addEventListener('ended', function() {
-        this.currentTime = 0;
-        this.play();
-    }, false);
-
-    newVideo.play();
-
-});
-    </script>
  </html>
